@@ -38,10 +38,10 @@ def newton_forward(x, val):
         print(diffs[i][j])
     
     # Print/create table
-    for i in range(n):
-        for j in range(i + 1):
-            print(f"{diffs[i][j]}", end="  ")
-        print()
+    #for i in range(n):
+    #   for j in range(i + 1):
+    #       print(f"{diffs[i][j]}", end="  ")
+    #   print()
 
 nfx = [7.2, 7.4, 7.5, 7.6]
 val_n = [23.5492, 25.3913, 26.8224, 27.4589]
@@ -49,7 +49,7 @@ val_n = [23.5492, 25.3913, 26.8224, 27.4589]
 # Testing Newton's Forward Difference
 newton_forward(nfx, val_n)
 
-
+# Approximate f(7.30)
 neville(nfx, val_n, 7.3)
 
 # Divided Difference w/ Hermite Polynomial Approx.
