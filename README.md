@@ -1,3 +1,4 @@
+# Programming Assignment 2 COT 4500
 Phuong Trinh Le
 
 Project Purpose: Implement the algorithms in Python from Chapter 3.
